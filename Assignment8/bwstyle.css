@@ -147,7 +147,7 @@ footer {
 /* HK additions */
 
 main {
-  flex: 3;
+  display: flex;
 }
 
 .flex-container {
