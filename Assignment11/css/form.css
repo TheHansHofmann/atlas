@@ -19,7 +19,6 @@ label{
 	width: 5.5em;
 	display: inline-block; /*width will not work for "inline" elements such as "label'.*/
 	text-align: right;
-  	white-space: nowrap;
   	padding-top: 8px;
 }
 
@@ -29,6 +28,21 @@ label{
 
 #formcol1 input.reqfield {
 	background:#FF9;
+}
+
+fieldset {
+  background-color: #EEE;
+  border-width: 3px;
+  border-color: #000;
+}
+
+legend {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.radiob {
+  text-align: left;
 }
 
 select:focus, select:active, input:focus, input:active, input:focus + label, input:active + label, label[for]:focus, label[for]:active {
