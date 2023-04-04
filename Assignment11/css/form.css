@@ -14,15 +14,13 @@ div#formcol1 {
 	width: 100%;
 }
 
-div#formcol1 input.reqfield {
-	background:#9F9;
-}
-
 label{
 	margin-right: .3em;
-	width: 3em;
+	width: 5.5em;
 	display: inline-block; /*width will not work for "inline" elements such as "label'.*/
 	text-align: right;
+  	white-space: nowrap;
+  	padding-top: 8px;
 }
 
 #formcol1 li {
@@ -34,8 +32,8 @@ label{
 }
 
 select:focus, select:active, input:focus, input:active, input:focus + label, input:active + label, label[for]:focus, label[for]:active {
-	color: #079 !important;
-	background-color: #BB3D2F !important;
+	color: #FFF !important;
+	background-color: #903829 !important;
 }
 
 /* end of form css */
