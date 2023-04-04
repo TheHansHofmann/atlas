@@ -14,6 +14,10 @@ div#formcol1 {
 	width: 100%;
 }
 
+div#formcol1 input.reqfield {
+	background:#9F9;
+}
+
 label{
 	margin-right: .3em;
 	width: 3em;
